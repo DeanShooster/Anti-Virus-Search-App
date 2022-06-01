@@ -1,0 +1,24 @@
+
+section{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-anti-virus{
+    position: absolute;
+    right:0; top:0;
+    width: 3rem; height: 3rem;
+    color: white;  background-color: darkorange; border: none;
+    margin: 15px;
+    &:hover{
+        cursor: pointer;
+        background-color: white; color: darkorange;
+    }
+}
+
+.svg-modal{
+    font-size: 2rem;
+}

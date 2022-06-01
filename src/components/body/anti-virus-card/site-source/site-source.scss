@@ -1,0 +1,31 @@
+
+
+.site-source-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media(max-width: 900px){
+        width: 100%;
+    }
+
+    button{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center; font-weight: bold;
+        background-color: darkorange;
+        border: none;
+        color:white;
+        padding: .9rem 1.2rem .9rem 1.2rem;
+        border-radius: 5px;
+        font-size: 1rem;
+
+        @media(max-width: 900px){
+            width: 95%;
+            margin: 10px 0 10px 0;
+        }
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
