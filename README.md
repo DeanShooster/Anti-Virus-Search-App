@@ -1,5 +1,5 @@
 <div></div>
-<h1  align="center">React Anti Virus Search App</h1>
+<h1  align="center">React Anti Virus Search App - Speed Test</h1>
 
 <div align="center">
   <p align="center">
